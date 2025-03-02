@@ -14,4 +14,5 @@ const result = (number = parseInt(prompt('Enter number: '),10)) => {
     else return 'Enter a valid single digit number';
 }
 
+
 console.log(result());
