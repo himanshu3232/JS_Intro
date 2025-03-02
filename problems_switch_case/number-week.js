@@ -2,6 +2,7 @@ const prompt = require('prompt-sync')();
 
 let num = parseInt(prompt('Enter a number (1-7) for the weekday: '));
 
+
 switch (num) {
     case 1:
         console.log("Sunday");
