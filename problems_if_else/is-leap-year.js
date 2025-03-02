@@ -7,5 +7,6 @@ function isLeapYear(year) {
         return `${year} is not a Leap Year.`;
     }
 }
+
 let year = prompt("Enter a 4-digit year:");
 alert(isLeapYear(parseInt(year, 10)));
