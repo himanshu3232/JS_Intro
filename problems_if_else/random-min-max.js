@@ -4,7 +4,6 @@ for(let i=0; i<5; i++){
     random_nums.push(Math.floor(Math.random() * 900) + 100)
 }
 
-
 let max_num = Number.MIN_SAFE_INTEGER
 let min_num = Number.MAX_SAFE_INTEGER
 
